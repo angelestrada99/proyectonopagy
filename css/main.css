@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+nav li a:hover{
+    text-decoration: solid;
+    font-weight: bold;}
+
+section > h2{
+    color: greenyellow;}
+
+#divvfoot{
+    background-color:rgb(46, 42, 46);
+    color: rgb(243, 233, 233);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;}
+
+#divv, #portda img > portada{
+    width: 2px;
+    height: 2px;
+    object-fit: cover;
+}
+
+menufoot > h3{
+    color: green;}
+
+menufoot > h3{
+    text-align: center;}
+    
+spritefoot > h3{
+    color: green;}
+
+contactofoot > h3{
+    color: green;}
+
+footfooter > h6{
+    text-align: right;}
+    
+#menuinferior ul{
+    list-style-type: none;}
+
+#menuinferior li a{
+    color: rgb(243, 233, 233);
+    text-decoration: none;}
+
+#menuinferior ul li a:hover{
+    text-decoration: solid;
+    font-weight: bold;}
+
+contactofoot{
+    text-align: center;}
+
+#redes{
+    position: relative;}
+      
+#redes li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;}
+      
+#redes li, #redes a {
+    height: 50px;
+    display: block;}
+
+#iconofb{
+    left: 0px;
+    width: 46px;
+    background: url('img_navsprites.gif') 0 0;}
+      
+#iconotw{
+    left: 63px;
+    width: 43px;
+    background: url('img_navsprites.gif') -47px 0;}
+      
+#iconoyt{
+    left: 129px;
+    width: 43px;
+    background: url('img_navsprites.gif') -91px 0;}
+
+#iconofb{
+    background: url("../images/sprite.png") no-repeat -17px -184px;
+    width: 50px;
+    height: 50px;}
+
+#iconofb:hover{
+        background: url("../images/sprite.png") no-repeat -17px -100px;
+        width: 50px;
+        height: 50px;}
+
+#iconotw{
+        background: url("../images/sprite.png") no-repeat -687px -184px;
+        width: 50px;
+        height: 50px;}
+        
+#iconotw:hover{
+        background: url("../images/sprite.png") no-repeat -687px -100px;
+        width: 50px;
+        height: 50px;}
+
+#iconoyt{
+        background: url("../images/sprite.png") no-repeat -858px -184px;
+        width: 50px;
+        height: 50px;}
+            
+#iconoyt:hover{
+        background: url("../images/sprite.png") no-repeat -858px -100px;
+        width: 50px;
+        height: 50px;}
